@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+//MIDI notes remember note velocity channel
+
+
+const int NOTES = 10; 
+
+struct Note{
+    unsigned char pitch;
+    unsigned char velocity; 
+    unsigned char channel; 
+}; 
+
+typedef struct Note Note;
+
+typedef struct Tricord{
+    Note notes[3]; 
+} Trichord; 
+
+
+int main(){
+
+    Trichord chord = {
+    {61, 127, 1}, 
+    {63, 120, 1}, 
+    {67, 100, 1}
+    };
+    // this is now a nested struct
+}
