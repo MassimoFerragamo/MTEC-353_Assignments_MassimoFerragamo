@@ -17,7 +17,8 @@ int main() {
 
     scanf("%f", &amplitude); 
 
-    printf("\n \n \nHello, Audio World! \n");
+    printf("\n \n \nWelcome to MTEC-353: Advanced Audio Programming! \n \n");
+    printf("Sine Wave (%.1f Hz, Amplitude: %.1f):\n \n", frequency, amplitude);
 
     frequency = ((float) frequency/44100.0) * PI;
 
@@ -46,4 +47,5 @@ int main() {
         }
         printf("\n");
     }
+    printf("\n");
 }
