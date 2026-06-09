@@ -1,9 +1,11 @@
 #include <stdio.h> //standard IO library
-#include <math.h> // math library needed for sin()
+#include <math.h> // math library needed for sin(), AI gave me this. I did not know about this library
 #define PI 3.14159265358979323846 //pi used to calculate nyquist 
 
+// I did not use AI to write code dirctly. 
+
 int main() {
-    int count = 50; //array size and iterration counter
+    int count = 50; //array size and iterration counter, I was helped by ai, it told me to define array size before and not use a dynamic array
     int arr[count]; //array containing sinewave values is created
     float amplitude; // amplitude variable
     int phase; //phase variable
@@ -29,7 +31,7 @@ int main() {
 
 
     frequency = ((float) frequency/44100.0) * PI; // this is the period of my waveform, how many cycles
-    amplitude = powf(10, amplitude/20.0); // db to amplitude conversion; 
+    amplitude = powf(10, amplitude/20.0); // db to amplitude conversion, this formula comes from AI
 
     //here I am calculating the amplitude values of all the samples in the waveform
     for (int i = 0; i < count; i++){ //iterrating over how many spots I have;
