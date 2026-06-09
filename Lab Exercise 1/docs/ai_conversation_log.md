@@ -19,3 +19,6 @@ Dynamically grow the array with realloc()
 
 
 what am I doing wrong here with scanf
+
+
+is there a clamp operation in C?
