@@ -2,10 +2,14 @@
 #include <math.h>
 
 int main() {
-    double amplitude;
+    int count = 40; 
+    double arr[count]; 
+    double amplitude = 10;
+    int phase;
+    float frequency = 0.5; 
 
-    for (int i = 0; i < 40; i++){
-        amplitude = sin(i * 2);
-        printf("%.2f", amplitude);
+    for (int i = 0; i < count; i++){
+        phase = round(sin(i * frequency) * amplitude);
+        printf("%d \n", phase);
     }
 }
