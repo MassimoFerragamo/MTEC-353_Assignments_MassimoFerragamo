@@ -16,3 +16,6 @@ how can I keep adding values into an array in c
 
 Use a fixed-size array and track how many elements are used
 Dynamically grow the array with realloc()
+
+
+what am I doing wrong here with scanf
