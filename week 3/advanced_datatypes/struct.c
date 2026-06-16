@@ -26,6 +26,6 @@ int main(){
     }
 
     notes[9] = (struct Note){67, 127, 1}; //this also changes the struct you don't need all of that iterration
-     notes[9] = (Note){67, 127, 1};
+    notes[9] = (Note){67, 127, 1};
 
 } //what if we need more than one note 

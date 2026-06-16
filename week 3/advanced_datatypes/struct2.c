@@ -23,4 +23,9 @@ int main(){
     pNote->pitch = 60; 
     pNote->velocity = 127; 
     pNote->channel = 1;
+
+    printf("MIDI note properties: \n");
+    printf("Pitch is: %d\n", pNote->pitch);
+    printf("Velocity is: %d\n", pNote->velocity);
+    printf("Channel is: %d\n", pNote->channel);
 } //what if we need more than one note 
