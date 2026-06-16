@@ -7,7 +7,7 @@ enum Waveform {
 
 //enum then enum name, inside function then keywords inside
 int main(){
-    enum Waveform wf = sine; //messy syntax, use typedef to rename this
+    enum Waveform wf = sawtooth; //messy syntax, use typedef to rename this
     // same thing as variable declaration
 
     //big use of enum is to rename numbers in switch
@@ -17,6 +17,9 @@ int main(){
             break; 
         case square:
             printf("Square\n");
+            break; 
+        case sawtooth:
+            printf("SawTooth\n");
             break; 
     }
 }
