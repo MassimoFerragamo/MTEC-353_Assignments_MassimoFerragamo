@@ -25,6 +25,7 @@ int main(){
         printf("Pitch: %d, Velocity: %d, Channel: %d\n", notes[i].pitch, notes[i].velocity, notes[i].channel);
     }
 
-    Note note[0] = {67, 127, 1}; //this also changes the struct you don't need all of that iterration
+    notes[9] = (struct Note){67, 127, 1}; //this also changes the struct you don't need all of that iterration
+     notes[9] = (Note){67, 127, 1};
 
 } //what if we need more than one note 
