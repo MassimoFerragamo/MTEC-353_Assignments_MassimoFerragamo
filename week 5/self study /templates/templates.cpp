@@ -2,6 +2,8 @@
 #include <string>
 using namespace std;
 
+
+//i declare a template for datat types and the compiler will resolve the function for the correct data type
 template<typename T>
 int compare(const T &value1, const T &value2){
     if (value1< value2) return -1; 
