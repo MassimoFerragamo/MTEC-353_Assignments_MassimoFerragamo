@@ -1,0 +1,3 @@
+/Users/massimo/Documents/GitHub/MTEC-353_Assignments_MassimoFerragamo/week 5/self study /CMake/multiple Files/build/CMakeFiles/multiple_files.dir
+/Users/massimo/Documents/GitHub/MTEC-353_Assignments_MassimoFerragamo/week 5/self study /CMake/multiple Files/build/CMakeFiles/edit_cache.dir
+/Users/massimo/Documents/GitHub/MTEC-353_Assignments_MassimoFerragamo/week 5/self study /CMake/multiple Files/build/CMakeFiles/rebuild_cache.dir
