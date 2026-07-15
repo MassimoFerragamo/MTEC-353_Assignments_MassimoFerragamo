@@ -1,0 +1,1 @@
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/multiple_files.dir/src/main.cpp.o CMakeFiles/multiple_files.dir/src/module.cpp.o -o multiple_files
