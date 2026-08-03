@@ -1,0 +1,12 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/massimo/Documents/GitHub/MTEC-353_Assignments_MassimoFerragamo/week11/01.Distortion/build/cmake_install.cmake",
+		"/Users/massimo/Documents/GitHub/MTEC-353_Assignments_MassimoFerragamo/week11/01.Distortion/build/JUCE/cmake_install.cmake",
+		"/Users/massimo/Documents/GitHub/MTEC-353_Assignments_MassimoFerragamo/week11/01.Distortion/build/JUCE/modules/cmake_install.cmake",
+		"/Users/massimo/Documents/GitHub/MTEC-353_Assignments_MassimoFerragamo/week11/01.Distortion/build/JUCE/extras/Build/cmake_install.cmake",
+		"/Users/massimo/Documents/GitHub/MTEC-353_Assignments_MassimoFerragamo/week11/01.Distortion/build/JUCE/extras/Build/juceaide/cmake_install.cmake",
+		"/Users/massimo/Documents/GitHub/MTEC-353_Assignments_MassimoFerragamo/week11/01.Distortion/build/AudioPluginHost/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

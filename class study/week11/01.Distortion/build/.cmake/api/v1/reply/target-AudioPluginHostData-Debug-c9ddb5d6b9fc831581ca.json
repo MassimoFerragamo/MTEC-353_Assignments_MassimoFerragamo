@@ -1,0 +1,198 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "AudioPluginHost/libAudioPluginHostData.a"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"juce_add_binary_data",
+			"add_custom_command",
+			"target_compile_features",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"JUCE/extras/Build/CMake/JUCEUtils.cmake",
+			"JUCE/extras/AudioPluginHost/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 53,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 470,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 513,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 522,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 520,
+				"parent" : 1
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++17 -arch arm64 -fPIC"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					4
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5
+			]
+		}
+	],
+	"id" : "AudioPluginHostData::@fc99201943d307e2513e",
+	"name" : "AudioPluginHostData",
+	"nameOnDisk" : "libAudioPluginHostData.a",
+	"orderDependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "juceaide::@181744a615892ba83be1"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "AudioPluginHost",
+		"source" : "JUCE/extras/AudioPluginHost"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				6
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				7
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/AudioPluginHost/juce_binarydata_AudioPluginHostData/JuceLibraryCode/BinaryData1.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/AudioPluginHost/juce_binarydata_AudioPluginHostData/JuceLibraryCode/BinaryData2.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/AudioPluginHost/juce_binarydata_AudioPluginHostData/JuceLibraryCode/BinaryData3.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/AudioPluginHost/juce_binarydata_AudioPluginHostData/JuceLibraryCode/BinaryData4.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/AudioPluginHost/juce_binarydata_AudioPluginHostData/JuceLibraryCode/BinaryData5.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/AudioPluginHost/juce_binarydata_AudioPluginHostData/JuceLibraryCode/BinaryData6.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/AudioPluginHost/juce_binarydata_AudioPluginHostData/JuceLibraryCode/BinaryData.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/AudioPluginHost/juce_binarydata_AudioPluginHostData/JuceLibraryCode/BinaryData1.cpp.rule",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

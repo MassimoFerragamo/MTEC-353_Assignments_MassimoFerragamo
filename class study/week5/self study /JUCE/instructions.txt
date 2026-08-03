@@ -1,0 +1,15 @@
+The first thing I need is to include the JUCE folder in the project folder
+instead of copying the full thing or downloading it from github I make a virtual link with: 
+ln -s ~/JUCE/ ./JUCE
+
+then run the bash commands 
+mkdir build (make a build folder)
+cd build (choose directory build)
+cmake .. (run Cmake in the parent directory (..))
+
+cmake --build . (build current directory)
+
+
+then run the app by going in the directory and running it like any other code /output
+right now it's in the ConsoleAppExample_artefacts
+
